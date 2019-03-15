@@ -10,5 +10,5 @@ function shufflePicture(type) {
 		p: 7
 	};
 		
-	document.getElementById(type).src = 'assets/' + type + '-style/' + type + '-style-' + parseInt((Math.random() * counts[type])+1) + '.png';
+	document.getElementById(type).src = 'assets/' + type + '-style/' + type + '-style-' + parseInt((Math.random() * counts[type])+1) + '.PNG';
 }
